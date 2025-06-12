@@ -1,0 +1,21 @@
+{
+    "player": {
+        "xp": 0,
+        "level": 1
+    },
+    "Flameling": {
+        "xp": 0,
+        "level": 1
+    },
+    "Aquana": {
+        "xp": 0,
+        "level": 1
+    },
+    "Leafairy": {
+        "xp": 0,
+        "level": 1
+    },
+    "Player": {
+        "flamio": 20
+    }
+}

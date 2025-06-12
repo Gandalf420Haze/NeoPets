@@ -1,0 +1,9 @@
+{
+    "monster": "flamio",
+    "deck": [
+        "atk_boost",
+        "def_boost",
+        "spd_boost"
+    ],
+    "name": "Player"
+}

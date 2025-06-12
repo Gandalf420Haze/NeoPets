@@ -1,0 +1,17 @@
+{
+  "atk_boost": {
+    "name": "Angriffsschub",
+    "effect": "atk",
+    "value": 10
+  },
+  "def_boost": {
+    "name": "Verteidigungsschub",
+    "effect": "def",
+    "value": 10
+  },
+  "spd_boost": {
+    "name": "Geschwindigkeitsschub",
+    "effect": "spd",
+    "value": 10
+  }
+}

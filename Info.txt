@@ -1,0 +1,44 @@
+1. Spiel-Tracker
+Aufgabe: Erkennt, welches Spiel du gerade zockst und wie lange.
+
+Input: „Valorant läuft seit 18:00 Uhr“ oder „Skyrim seit 45 Min.“
+
+Output: Stunden/Matches → in XP umrechnen
+
+2. Pet-Engine
+Aufgabe: Verwalten deines digitalen Pets
+
+XP berechnen und speichern
+
+Mood-Werte (Bindung, Laune, Energie) anpassen
+
+Evolution auslösen, wenn genug XP/Mood erreicht sind
+
+Output: aktuelles Level, Mood-Status, nächster Meilenstein
+
+3. Battle-Engine & Liga-System
+Aufgabe:
+
+Spieler klicken „Kampf starten“ → Gegner in derselben Liga finden
+
+Autokampf simulieren (Stats + Zufall)
+
+Ergebnis: Sieg/Niederlage, Liga-Punkte, Loot-Drops
+
+Output: neuer Rang, Belohnungen, ggf. Fusionstoken
+
+4. Daten-Speicher
+Aufgabe: Alle wichtigen Werte sicher ablegen
+
+Lokal (am Anfang): dein Rechner speichert XP, Mood, Liga-Punkte in einer kleinen Datei
+
+Später (Live-Service): zentraler Server, damit du auf mehreren Geräten weiterspielen und gegen andere antreten kannst
+
+5. Benutzer-Oberfläche (UI)
+Aufgabe:
+
+Zeigt dein Pet, XP-Leiste, Mood-Icons
+
+Battle-Buttons, Rang-Anzeige, Leaderboard
+
+Kleine Notifications („+50 XP!“, „Jetzt Kampf in Bronze-Liga?“)

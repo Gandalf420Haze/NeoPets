@@ -1,0 +1,24 @@
+{
+  "flamio": {
+    "name": "flamio",
+    "hp": 100,
+    "atk": 15,
+    "def": 5,
+    "spd": 10
+  },
+  "Aquana": {
+    "name": "Aquana",
+    "hp": 110,
+    "atk": 10,
+    "def": 10,
+    "spd": 8
+  },
+  "Leafairy": {
+    "name": "Leafairy",
+    "hp": 95,
+    "atk": 12,
+    "def": 7,
+    "spd": 12
+  }
+}
+
