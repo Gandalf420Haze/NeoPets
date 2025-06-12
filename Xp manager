@@ -1,0 +1,28 @@
+import json
+import os
+
+XP_DATEI = "xp.json"
+
+def lade_xp_daten():
+    if not os.path.exists(XP_DATEI):
+        return {}
+    with open(XP_DATEI, "r") as f:
+        return json.load(f)
+
+def speichere_xp_daten(daten):
+    with open(XP_DATEI, "w") as f:
+        json.dump(daten, f, indent=2)
+
+def gib_xp(player_data, monster_data, daten):
+    spieler_name = player_data.get("name", "Unbekannt")
+    monster_name = monster_data.get("name", "Unbekannt")
+
+    if spieler_name not in daten:
+        daten[spieler_name] = {"xp": 0, "monster": {}}
+
+    daten[spieler_name]["xp"] += 10
+
+    if monster_name not in daten[spieler_name]["monster"]:
+        daten[spieler_name]["monster"][monster_name] = 0
+
+    daten[spieler_name]["monster"][monster_name] += 5
